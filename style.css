@@ -1,0 +1,105 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header{
+  
+  background-color: lightslategray;
+  height: 70px;
+  width: 100%;
+  z-index: 10;
+  float: left;
+}
+
+.logo-header{
+  margin: 15px 0 15px 25px;
+}
+
+.logo-header img{
+  float:left;
+}
+
+.map-header{
+  float: right;
+  margin-right: 25px;
+  margin-top: -15px;
+}
+
+.map-header a{
+  line-height: 70px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.map-header a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cover-jakarta, .cover-jakpus, .cover-jaksel, .cover-jaktim, .cover-jakbar, .cover-jakut {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment:fixed;
+}
+
+.cover-jakarta{
+  background-image: url('jakarta-cover.jpg');
+  min-height: 70%;
+  z-index: -1;
+}
+
+.cover-jaksel{
+  background-image: url('jaksel-cover.jpeg');
+  min-height: 400px;
+}
+
+
+.cover-jakpus{
+  background-image: url('jakpus-cover.jpg');
+  min-height: 400px;
+}
+
+.cover-jaktim{
+  background-image: url('jaktim-cover.jpg');
+  min-height: 400px;
+}
+
+.cover-jakbar{
+  background-image: url('jakbar-cover.jpg');
+  min-height: 400px;
+}
+
+.cover-jakut{
+  background-image: url('jakut-cover.jpg');
+  min-height: 400px;
+}
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
